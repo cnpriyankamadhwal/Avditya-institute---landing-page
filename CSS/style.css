@@ -1,0 +1,277 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    font-size: 18px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* header */
+
+a {
+    text-decoration: none;
+}
+
+header {
+    position: fixed;
+    background: #ffffffa8;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+    padding: 15px;
+    backdrop-filter: blur(12px);
+}
+
+header h1 a {
+    color: royalblue;
+}
+
+header span {
+    color: crimson;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navlist {
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    gap: 30px;
+}
+
+.navlist li a {
+    color: #333;
+
+}
+
+/* hero section */
+
+#hero {
+    min-height: 100vh;
+    background: linear-gradient(to right, #4444be, #8ccbe5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.hero {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.hero-btns {
+    margin: 20px 0;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.hero h1 {
+    font-weight: 500;
+    font-size: 40px;
+}
+
+button {
+    text-transform: uppercase;
+}
+
+.btn-1 {
+    padding: 10px 15px;
+    border-radius: 20px;
+    color: #fff;
+    background: linear-gradient(45deg, #413eae, #3bb3e3);
+    border: 0;
+    cursor: pointer;
+}
+
+.btn-2 {
+    padding: 10px 15px;
+    border-radius: 20px;
+    color: #fff;
+    border: 2px solid #fff;
+    background-color: #4444be;
+    cursor: pointer;
+}
+
+/* about */
+
+#about {
+    padding: 100px;
+    min-height: 100vh;
+}
+
+.about-institute {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about {
+    width: 45%;
+}
+
+.about p {
+    margin: 20px 0;
+    color: rgb(123 121 121);
+}
+
+.about li {
+    color: rgb(123 121 121);
+    list-style: none;
+    padding: 10px 0;
+}
+
+.about-institute img {
+    width: 450px;
+    height: 460px;
+}
+
+/* course */
+
+#courses {
+    min-height: 100vh;
+    background-color: #dbd4d4;
+    padding: 100px 0;
+}
+
+.course {
+    text-align: center;
+}
+
+.course p {
+    color: rgb(123 121 121);
+    padding: 20px;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 50px;
+}
+
+.course img {
+    width: 355px;
+    height: 260px;
+}
+
+.img {
+    width: 25%;
+    background-color: #fff;
+    padding-bottom: 20px;
+    border-radius: 10px;
+}
+
+.btn {
+    background-color: #e04b4b;
+    color: #fff;
+    padding: 5px 10px;
+    border: 0;
+    border-radius: 20px;
+    margin: 20px 0px;
+}
+
+/* score */
+
+#score {
+    background-color: royalblue;
+    min-height: 400px;
+    color: #fff;
+    padding: 250px;
+}
+
+.score {
+    display: flex;
+    gap: 30px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.score h1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.score p {
+    font-size: 30px;
+    margin: 10px 0;
+}
+
+/* testimonial */
+
+#testimonial {
+    min-height: 100vh;
+    padding: 100px 0;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.testimonial {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+
+.developer {
+    letter-spacing: 0.5px;
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.developer p {
+    margin-bottom: 10px;
+}
+
+.developer p i {
+    font-weight: 400;
+}
+
+/* career */
+
+#career{
+    background-color: #f06969;
+    color: #fff;
+    min-height: 45vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.btn-3{
+    background: linear-gradient(45deg, #413eae, #3bb3e3);
+    padding: 10px 15px;
+    border-radius: 15px;
+    color: #fff;
+    border: 0;
+    margin-top: 10px;
+}
+
+.career-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* footer */
+
+footer{
+    
+}
